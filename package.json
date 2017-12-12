@@ -16,7 +16,7 @@
     "travisci"
   ],
   "author": "Vladimir Vukanac <vukanac@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vukanac/ci-base-nodejs/issues"
   },
