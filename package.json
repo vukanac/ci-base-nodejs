@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/vukanac/ci-base-nodejs/issues"
   },
-  "homepage": "https://github.com/vukanac/ci-base-nodejs#readme"
+  "homepage": "https://github.com/vukanac/ci-base-nodejs#readme",
+  "devDependencies": {
+    "eslint": "^4.13.1"
+  }
 }
