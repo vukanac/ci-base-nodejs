@@ -1,0 +1,24 @@
+{
+  "name": "wukanac-ci-base-nodejs-travis",
+  "version": "1.0.0",
+  "description": "CI with NodeJs and TravisCI",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --timeout=10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vukanac/ci-base-nodejs.git"
+  },
+  "keywords": [
+    "ci",
+    "nodejs",
+    "travisci"
+  ],
+  "author": "Vladimir Vukanac <vukanac@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vukanac/ci-base-nodejs/issues"
+  },
+  "homepage": "https://github.com/vukanac/ci-base-nodejs#readme"
+}
