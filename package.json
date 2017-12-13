@@ -1,0 +1,46 @@
+{
+  "name": "wukanac-ci-base-nodejs-travis",
+  "version": "1.0.0",
+  "description": "CI with NodeJs and TravisCI",
+  "main": "dist/index.js",
+  "scripts": {
+    "flow": "flow",
+    "flow start": "flow start",
+    "flow stop": "flow stop",
+    "flow status": "flow status",
+    "flow coverage": "flow coverage",
+    "test": "mocha --recursive --timeout=10000",
+    "test-watch": "mocha --watch --bail --recursive --timeout=10000",
+    "build": "babel src/ -d dist/",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vukanac/ci-base-nodejs.git"
+  },
+  "keywords": [
+    "ci",
+    "nodejs",
+    "travisci"
+  ],
+  "author": "Vladimir Vukanac <vukanac@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vukanac/ci-base-nodejs/issues"
+  },
+  "homepage": "https://github.com/vukanac/ci-base-nodejs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-preset-flow": "^6.23.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-flowtype": "^2.40.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "flow-bin": "^0.61.0",
+    "mocha": "^4.0.1"
+  }
+}
