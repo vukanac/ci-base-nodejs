@@ -6,6 +6,8 @@
 
 > CI with NodeJs and TravisCI
 
+Code is hosted on *GitHub* and tests are run on *TravisCI* on every push to `master` branch.
+
 
 This is base set of tools that help writing JavaScript code.
 
@@ -41,7 +43,7 @@ Optional:
 * FileManager
 * GitGutter
 * Pretty JSON
-* SUblimeLinter-annotations
+* SublimeLinter-annotations
 
 
 ## Install
@@ -70,3 +72,6 @@ Watching for changes:
 MIT
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvukanac%2Fci-base-nodejs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvukanac%2Fci-base-nodejs?ref=badge_large)
+
+
+Vladimir Vukanac
