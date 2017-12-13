@@ -3,7 +3,7 @@ const glob = require('glob');
 const CLIEngine = require('eslint').CLIEngine;
 const assert = require('chai').assert;
 
-const paths = glob.sync('./+(src|server|seeders|models|migrations|config|client/src)/**/*.js');
+const paths = glob.sync('./+(src|server|seeders|models|migrations|config)/**/*.js');
 const engine = new CLIEngine({
   envs: [ 'node', 'mocha' ],
   useEslintrc: true,
