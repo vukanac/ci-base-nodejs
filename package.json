@@ -10,6 +10,7 @@
     "flow status": "flow status",
     "flow coverage": "flow coverage",
     "test": "mocha --recursive --timeout=10000",
+    "test-watch": "mocha --watch --bail --recursive --timeout=10000",
     "build": "babel src/ -d dist/",
     "prepublish": "npm run build"
   },
