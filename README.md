@@ -1,4 +1,4 @@
-# Project: CI Base with TraviseCI
+# Project: CI Base with TravisCI
 
 [![Build Status](https://travis-ci.org/vukanac/ci-base-nodejs.svg?branch=master)](https://travis-ci.org/vukanac/ci-base-nodejs)
 
