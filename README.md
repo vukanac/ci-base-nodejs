@@ -58,8 +58,10 @@ Optional:
     npm run flow start
     npm run flow status
     npm test
+    npm run flow stop
 
 Watching for changes:
+
     npm run test-watch
 
 
