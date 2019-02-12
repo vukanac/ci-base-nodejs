@@ -69,6 +69,46 @@ Watching for changes:
 
     npm test
 
+
+### End-to-end tests
+
+Install e2e runner:
+
+    npm install nightwatch --save-dev
+
+Install WebDriver (formerly Selenium WebDriver):
+
+    npm install geckodriver --save-dev # firefox
+    npm install chromedriver --save-dev # chrome
+    C:/> DISM.exe /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0 # Edge
+    safaridriver --enable # binary /usr/bin/safaridriver
+
+Required:
+
+    java -version
+
+    echo "build/bin">>.gitignore
+    mkdir -p build/bin
+    curl -o build/bin/selenium-server-standalone-3.9.1.jar \
+        http://selenium-release.storage.googleapis.com/3.9/selenium-server-standalone-3.9.1.jar
+    java -jar build/bin/selenium-server-standalone-3.9.1.jar --help
+
+
+Add and configure `nightwatch.json` for Chrome directly or use this for Chrome with Selenium:
+
+    {
+      "selenium" : {
+        "start_process" : true,
+        "server_path" : "./bin/selenium-server-standalone-3.{VERSION}.jar",
+        "log_path" : "",
+        "port" : 4444,
+        "cli_args" : {
+          "webdriver.chrome.driver" : "./bin/chromedriver"
+        }
+      }
+    }
+
+
 ## License
 
 MIT

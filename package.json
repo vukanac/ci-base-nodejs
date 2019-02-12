@@ -34,6 +34,7 @@
     "babel-eslint": "^8.2.6",
     "babel-preset-flow": "^6.23.0",
     "chai": "^4.2.0",
+    "chromedriver": "^2.45.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-flowtype": "^2.50.3",
@@ -41,6 +42,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.12.3",
     "flow-bin": "^0.61.0",
-    "mocha": "^4.1.0"
+    "mocha": "^4.1.0",
+    "nightwatch": "^1.0.18"
   }
 }
